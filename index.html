@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/style.css">
+
+  <script src="/js-code.js"></script>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body class="body">
+  <section class="seaction">
+  <img src="./img/bg.jpg" alt=""  class="seaction-backgroundimg" >
+  <img src="./img/logo.svg" alt="" class="seaction-logoname" >
+</section>
+  <article class="article">
+    <header class="header">
+      <h2 class="header-intro">Get iintoo it today</h2>
+      <div class="intro__addition">There is no charge or obligation upon regostration.</div>
+      <div class="links">
+        <a href="#" class="links__facebook">Register with Facebook</a>
+        <a href="#" class="links__linkedin">Register with Linkedin</a>
+      </div>
+    </header>
+   <div class="or">or</div>
+    <section class="seaction-datainformation">
+      <input type="email" name="email" id="" class="datainformation-email" placeholder="Email" >
+      <input type="tel" name="tel" id="" class="datainformation-phone" pattern="+7[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone" >
+    </section>
+      <footer class="footer">
+        <h3 class="footer-title">What type of investor are you?</h3>
+        <div class="title-addition">Select the type of investor you are below.</div>
+        <form class="footer-form">
+          <input type="radio" name="type" class="form_input" id="Individual" value="Individual" checked>
+          <label for="Individual">Individual <span class="form__symbol">&#9432</span></label>
+          <input type="radio" name="type" class="form_input" id="Business" value="Business">
+          <label for="Business">Business <span class="form__symbol">&#9432</span></label>
+          <input type="radio" name="type" class="form_input" id="IRA" value="IRA">
+          <label for="IRA">IRA <span class="form__symbol">&#9432</span></label>
+          <input type="radio" name="type" class="form_input" id="Trust" value="Trust">
+          <label for="Trust">Trust <span class="form__symbol">&#9432</span></label>
+          </form>
+          <div class="form-description">I am a natural person investing on my own behalf as a sole owner, joimt tenant or tenant in common</div>
+          <input type="checkbox" name="agree" id="ruls" required>
+          <label for="ruls" class="footer-accepter">I agree to terms and receving notifacations from intoo <a href="#">View full terms</a></label>
+      </footer>
+      <button class="button-create">Create account</button>
+  </article>
+
+</body>
+</html>
